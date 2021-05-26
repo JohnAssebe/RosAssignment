@@ -1,0 +1,8 @@
+prefix=/home/jahnny/RosAssignment/devel
+
+Name: arm_lib
+Description: Description of arm_lib
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
