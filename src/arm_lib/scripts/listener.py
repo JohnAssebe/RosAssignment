@@ -27,7 +27,7 @@ def callback(data):
 
 def rotate(yaw, pitch, roll,z , y, x, d):
     
-    # change deg to rad - np.deg2rad()
+    #np.deg2rad()-used to change degree to rad
     yaw = np.deg2rad(yaw)
     pitch = np.deg2rad(pitch)
     roll = np.deg2rad(roll)
